@@ -24,6 +24,9 @@ public class Frame {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+		
+		//all the data are here
+		
 		String[] ProductNames= {"Brocolli","Carrot","Capsicum"};
 		Frame1 data=new Frame1(driver);
 		List <WebElement>names=data.alldata();

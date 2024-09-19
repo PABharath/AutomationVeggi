@@ -24,13 +24,13 @@ public class Frame2 {
 	
 	
 	@FindBy(css=".products button:nth-last-child(1)")
-	WebElement clickplace;
+	WebElement bharclick;
 	
 	public void placeorder(String user) throws InterruptedException {
 		sendata.sendKeys(user);
 		clickpromo.click();
 		Thread.sleep(3000);
-		clickplace.click();
+		bharclick.click();
 	}
 	
 }
